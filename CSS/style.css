@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.bgimage{
+	background:rgba(0, 0, 0, 0.7) url('../bbb.jpg');
+	background-size: cover;
+	background-blend-mode: darken;
+    height: 165vh;
+}
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 30%;
+	line-height: 100px;
+	float: left;
+    text-align: left;
+    padding: 23px 0;
+}
+
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.leftmenu h4 span{
+    color: #9876C1;
+}
+.rightmenu{
+	width:70%;
+	height: 100px;
+	float: right;
+
+/*	background-color: red; */
+}
+
+.rightmenu ul{
+	margin-left: 200px;
+}
+
+.rightmenu ul li {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+
+}
+
+
+#fisrtlist{
+	color: #9876C1;
+}
+
+
+.rightmenu ul li a:hover{
+	
+	color: #9876C1;
+}
+.rightmenu ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: none;
+	text-align: center;
+	color:white;
+}
+
+.hometext{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: initial;
+    height: 75%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 60px;
+    display: block;
+    margin: auto;
+}
+.text-fbig{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.text-fsmall{
+    font-size: 23px;
+}
+
+
+#buttonone{
+	background-color: white;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+}
+
+#buttonone:hover{
+	color: #9876C1;
+
+}
+#buttontwo{
+
+	background-color: transparent;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 40px;
+	border: 3px solid white;
+	width: 150px;
+}
+
+.login-box{
+    width: 550px;
+    height: 450px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(14, 13, 13);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #9876C1;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #3e0781;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.login-box h5{
+   
+    font-size: 14px;
+    color: black;
+}
+.login-box a:hover
+{
+    color: #9876C1;
+}
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.htext {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 11px;
+    padding-bottom: 55px;
+}
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-linkedin {
+    background: #007cb57a;
+    color: white;
+}
+
+.fa-facebook {
+    background: #2064cb8e;
+    color: white;
+}
+
+.fa-instagram {  
+    background: #88125383;  
+    color: white;  
+  }  
+  .fa-youtube {  
+    background: #bb00009a;  
+    color: white;  
+  }  
+  .fa-google {  
+    background: #dd4c399f;  
+    color: white;  
+  }  
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 30px;
+    text-decoration: none;
+    margin: 5px 40px;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: ivory;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('bbb.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 11px;
+    padding-bottom: 55px;
+}
+.text-hbig{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;  
+}
+.text-hsmall{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px; 
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.howItWorks{
+    padding: 0px 30px;
+}

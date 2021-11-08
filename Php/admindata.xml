@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<adminpanel>
+	<user type="admin">
+		<name>Ayesha</name>
+		<pass>Ayesha@765</pass>
+		<email>ayeshabdullah765@gmail.com</email>
+		<type>admin</type>
+    </user>
+	
+	<user type="admin">
+		<name>Fayeza</name>
+		<pass>Fayeza.Zobair</pass>
+		<email>fayeza.zobair@gmail.com</email>
+		<type>admin</type>
+    </user>
+	
+	<user type="admin">
+		<name>Rida</name>
+		<pass>Rida.Khan</pass>
+		<email>rida02khan@gmail.com</email>
+		<type>admin</type>
+    </user>
+	
+	
+</adminpanel>
